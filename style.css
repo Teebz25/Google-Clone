@@ -1,0 +1,200 @@
+body{
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+a:hover{
+    text-decoration: underline;
+  
+}
+
+button{
+    background-color: #c4c4c4;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px;
+    color: #1f1f1f;
+}
+
+button:hover{
+    border: solid black 1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li{
+    margin: 5px;
+    
+}
+
+input{
+    border-radius: 10px;
+    width: 500px;
+    height: 30px;
+}
+
+input:hover{
+    box-shadow: 2px 1px #888888,-2px -1px #888888;
+   
+}
+
+.apps{
+    margin: 0;
+    height: 25px
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 10px 20px;
+    margin:0;
+    border-top: solid rgb(224, 224, 224) 1px;
+}
+
+.fa-flag{
+    float: left;
+}
+
+.form{
+    width: 100%;
+}
+
+.icon { 
+    padding: 6px 0; 
+    min-width: 40px; 
+    color: #888888;
+} 
+
+.icon1 { 
+    padding: 6px 0; 
+    min-width: 40px; 
+    color: #888888;
+    float: right;
+    margin-left: -40px;
+} 
+
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+
+.input-field{
+    padding: 0 33px;
+    
+}
+  
+
+
+.top{
+    position: fixed;
+    top: 10px
+}
+
+.log{
+    background-color: rgb(57, 145, 245);
+    border: none;
+    border-radius: 2px;
+    padding: 9px;
+    font-size: 12px;
+    margin-top: -5px;
+    color: white;
+}
+
+.low-left{
+    float: left;
+    display: flex; 
+}
+
+.low-right{
+    float: right;
+    display: flex;
+    align-content: right;
+}
+
+.top-right{
+    position: fixed;
+    right: 20px;
+    display: flex;
+    align-content: right;
+}
+
+.top-left{
+    position: fixed;
+    left: 20px;
+    display: flex;
+    align-self: right;
+}
+
+.middle{
+    text-align: center;
+    display: block;
+    margin: 0px auto 0%;
+    padding-top: 10em;
+    z-index: 1;
+}
+
+.name{
+    list-style-type: none;
+    display: flex;
+    font-size: 90px;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.g1,
+.g4{
+    color: #4285F4;
+}
+
+.g2,
+.g6{
+    color: #DB4437;
+}
+
+.g3{
+    color:#F4B400;
+}
+
+.g5{
+    color: #0F9D58;
+}
+
+
+@media(max-width: 1000px){
+    body{
+        width: 1000px;
+    }
+
+    .top{
+        width: 1000px;
+    }
+
+    .top-right{
+        position: fixed;
+        float:right;
+    }
+
+    .bottom{
+        width: 1000px;
+    }
+}
+
